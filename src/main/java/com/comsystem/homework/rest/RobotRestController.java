@@ -30,6 +30,7 @@ public final class RobotRestController {
     public ResponseEntity<RobotPlan> approximateDays(@RequestParam Integer numberOfStones) {
         // TODO
         throw new ErrorResponseException(HttpStatus.I_AM_A_TEAPOT);
+
     }
 
 }
