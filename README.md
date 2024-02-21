@@ -1,23 +1,21 @@
-# Робот на Марс
+# Robot Operations API
 
-В тази задача по програмиране се интересуваме от имплементацията на робот, който събира камъни на Марс. Роботът има само
-2 функции на разположение:
+## Overview
+This project implements a Spring Boot-based RESTful API for a Mars exploration robot, enabling optimization strategies for stone collection based on given time constraints.
 
-* За един ден да събере един камък
-* За един ден да се клонира
+## Features
+- **Excavate Stones**: Calculate the maximum stones collected given a number of days.
+- **Approximate Days**: Determine the minimum days required for collecting a specified number of stones.
 
-Тъй като и двете операции отнемат цял ден, роботът не може да се клонира и да събира камъни в един и същи ден.
+## Technologies
+- **Spring Boot**: Framework for creating the RESTful API.
+- **JUnit**: Used for unit testing the application.
 
-Довършете имплементацията на двата класа [RobotOperations](/src/main/java/com/comsystem/homework/robot/RobotOperations.java)
-и [RobotRestController](/src/main/java/com/comsystem/homework/rest/RobotRestController.java). Там ще намерите и 
-допълнителни ориентировъчни коментари.
-Моля, имплементирайте и два unit теста, които да доказват коректността на двата метода в
-[RobotOperations](/src/main/java/com/comsystem/homework/robot/RobotOperations.java).
+## Endpoints
+- **Excavation**: `POST /api/v1/robot/operation/excavation`
+- **Approximation**: `POST /api/v1/robot/operation/approximation`
 
-Позволено е да използвате всякакви външни библиотеки, които могат да се намерят в
-[Maven Central Repository](https://mvnrepository.com). Не е позволено да се променят сигнатурите (method signature) на 
-вече дефинираните методи.
-
-Приятно кодене!
+## Getting Started
+Clone the project and navigate to the directory:
 
 
