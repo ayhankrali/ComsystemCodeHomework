@@ -1,4 +1,4 @@
-# Robot Operations API
+# Robot Operations 
 
 ## Overview
 This project implements a Spring Boot-based RESTful API for a Mars exploration robot, enabling optimization strategies for stone collection based on given time constraints.
