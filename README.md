@@ -15,7 +15,6 @@ This project implements a Spring Boot-based RESTful API for a Mars exploration r
 - **Excavation**: `POST /api/v1/robot/operation/excavation`
 - **Approximation**: `POST /api/v1/robot/operation/approximation`
 
-## Getting Started
-Clone the project and navigate to the directory:
+
 
 
